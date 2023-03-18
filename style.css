@@ -18,8 +18,8 @@ nav {
 header {
     margin: 0;
     padding: 0;
-    height: 16rem;
-    background-image: url("images/stars.jpeg");
+    height: 15rem;
+    background-image: url("images/stars.jpg");
     background-position: center;
     background-size: fit;
     position: relative;
@@ -46,21 +46,27 @@ h3 {
     padding: 3rem
 }
 
-p {
+section {
     background-color: #FFA731;
     text-align: center;
-    Margin: 1rem;
+    margin: 1rem;
     padding: 3rem;
 }
 
-ul {
-    max-width: 11rem;
+section ul li {
+    text-align: left;
+    width: 20rem;
     margin: auto;
 }
+
 
 ol {
     max-width: 11rem;
     margin: auto;
+}
+
+li {
+    text-align: center;
 }
 
 .address {
